@@ -102,9 +102,9 @@ cp .env.example .env
 
 Откройте .env и вставьте свой ключ:
 
-OPENROUTER_API_KEY=ваш_API_ключ_от_OpenRouter
-OPENROUTER_URL=https://api.openrouter.ai/v1
-OPENROUTER_MODEL=gpt-4o-mini
+OPENROUTER_API_KEY=вставьте_апи_openrouter
+OPENROUTER_URL=https://openrouter.ai/api/v1
+OPENROUTER_MODEL=deepseek/deepseek-r1:free
 
 
 Примечание: URL и MODEL можно оставить одинаковыми с .env.example — главное заполнить OPENROUTER_API_KEY.
